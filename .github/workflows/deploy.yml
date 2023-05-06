@@ -10,7 +10,7 @@ env:
   AZURE_WEBAPP_NAME: globalazure2023
   AZURE_WEBAPP_PACKAGE_PATH: './published'
   NET_VERSION: '7.x'
-  PROJECT_NAME: GlobalAzure
+  PROJECT_NAME: src/GlobalAzure
   RUNTIME: linux-x64
 
 jobs:
