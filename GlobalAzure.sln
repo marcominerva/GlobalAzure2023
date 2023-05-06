@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalAzure", "src\GlobalAzure\GlobalAzure.csproj", "{018A532B-2473-4A6D-8030-743E624585CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalAzure", "src\GlobalAzure\GlobalAzure.csproj", "{018A532B-2473-4A6D-8030-743E624585CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{17423317-C0A0-4398-B12E-34F8C48B3BCC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
