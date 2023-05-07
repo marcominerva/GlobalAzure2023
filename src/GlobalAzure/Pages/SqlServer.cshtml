@@ -1,0 +1,33 @@
+﻿@page
+@model SqlServerModel
+@{
+    ViewData["Title"] = "SQL Server";
+}
+
+<div class="text-center">
+    <h1 class="display-4">SQL Server Test Page</h1>
+</div>
+
+<div class="mt-4">
+    <p><strong>SQL Version:</strong> @Model.SqlVersion</p>
+
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">City</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var person in Model.People)
+            {
+                <tr>
+                    <td>@person.FirstName</td>
+                    <td>@person.LastName</td>
+                    <td>@person.City</td>
+                </tr>
+            }            
+        </tbody>
+    </table>
+</div>
