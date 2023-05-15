@@ -27,4 +27,4 @@ public class SqlServerModel : PageModel
     }
 }
 
-public record class Person(Guid Id, string FirstName, string LastName, string City);
+public record class Person(Guid Id, string FirstName, string LastName, string City, bool IsDeleted);
